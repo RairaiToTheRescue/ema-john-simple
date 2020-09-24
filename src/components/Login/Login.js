@@ -174,7 +174,7 @@ function Login() {
             }
             <br/>
             <input type="checkbox" onChange={() => setNewUser(!newUser)} name="newUser" />
-            <label className="user-ds" htmlFor="newUser"><b>New User Sign Up</b></label>
+            <label className="user-ds" htmlFor="newUser"><b>Click On The Box For New User Sign Up</b></label>
             <form onSubmit={handleSubmit}>
                 {newUser && <input name="name" type="text" onBlur={handleBlur} placeholder="Your Name" />}
                 <br />
